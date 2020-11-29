@@ -1,0 +1,19 @@
+.header__lang-link {
+  font-size: 18px;
+  line-height: 1.3;
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity .1s ease-in-out;
+}
+.header__lang-link:hover {
+  opacity: .8;
+}
+.header__lang-link:not(:first-child) {
+  padding-left: 18px;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+  }
+}
