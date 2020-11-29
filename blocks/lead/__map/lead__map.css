@@ -1,0 +1,25 @@
+.lead__map {
+  position: absolute;
+  top: 29px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 95%;
+}
+@media (min-width: 768px) {
+  .lead__map {
+    top: 70px;
+  }
+}
+@media (min-width: 1024px) {
+  .lead__map {
+    top: 85px;
+    max-width: 883px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__map {
+    top: 90px;
+    max-width: 937px;
+  }
+}
