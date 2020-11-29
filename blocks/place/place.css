@@ -1,0 +1,31 @@
+.place {
+  display: grid;
+  gap: 32px;
+}
+.place:not(:first-child) {
+  margin-top: 48px;
+}
+@media (min-width: 768px) {
+  .place {
+    gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
+  }
+  .place:not(:first-child) {
+    margin-top: 72px;
+  }
+}
+@media (min-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+    grid-template-columns: 440px 1fr;
+  }
+  .place:not(:first-child) {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 1280px) {
+  .place {
+    gap: 48px 40px;
+    grid-template-columns: 460px 1fr;
+  }
+}
