@@ -1,0 +1,6 @@
+.header__lang-item {
+    display: inline-block;
+}
+.header__lang-item:not(:first-child) {
+    padding-left: 18px;
+  }

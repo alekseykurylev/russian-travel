@@ -9,3 +9,9 @@
     padding: 0 16px 0 16px;
   }
 }
+@media (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+}
